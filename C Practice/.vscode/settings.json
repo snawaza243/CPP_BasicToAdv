@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "P41.C": "cpp",
+        "Array2DSparseMatrix.C": "cpp",
+        "STACK.C": "cpp",
+        "StackOperationWithStruct.C": "cpp"
+    }
+}
