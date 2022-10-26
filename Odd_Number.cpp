@@ -1,3 +1,5 @@
+// Print all odd and even number upto given input
+
 #include <iostream>
 using namespace std;
 int main()

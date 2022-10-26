@@ -1,3 +1,5 @@
+// How to take input and output in cpp
+
 #include <iostream>
 using namespace std;
 

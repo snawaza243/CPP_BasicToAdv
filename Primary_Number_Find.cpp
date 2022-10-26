@@ -1,3 +1,5 @@
+// Check prime and non-prime number of user input
+
 #include<iostream>
 using namespace std;
 int main()
@@ -20,5 +22,4 @@ int main()
     }
         num = num + 2;
 
-    
 }

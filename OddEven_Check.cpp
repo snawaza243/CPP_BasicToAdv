@@ -1,3 +1,4 @@
+// Check odd and even to the user input
 #include <iostream>
 using namespace std;
 int main()

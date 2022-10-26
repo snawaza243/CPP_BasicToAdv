@@ -1,3 +1,5 @@
+// Program to calculate the sum of upto given user input
+
 #include <iostream>
 using namespace std;
 

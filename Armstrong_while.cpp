@@ -1,3 +1,5 @@
+// Program to check armstrong number using while
+
 #include <iostream>
 using namespace std;
 

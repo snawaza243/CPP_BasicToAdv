@@ -1,3 +1,5 @@
+// Find the sum of two digit three digit input number
+
 #include <iostream>
 using namespace std;
 
@@ -37,12 +39,12 @@ int main()
     cout << "Enter two/three digit number: ";
     cin >> n;
 
-    if (n<100)
+    if (n < 100)
     {
         sumThreeNum(n);
     }
     else
-    sumThreeNum(n);
-    
+        sumThreeNum(n);
+
     return 0;
 }

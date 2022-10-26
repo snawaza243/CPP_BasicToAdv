@@ -1,3 +1,5 @@
+// Program to check armstrong number using if 
+
 #include <iostream>
 using namespace std;
 
