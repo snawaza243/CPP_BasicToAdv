@@ -1,2 +1,2 @@
-# C++ Practice Code
-C++ programming practice from basic to advance 
+# Practice World
+Practice code and resources and also prototypes.
