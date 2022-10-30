@@ -1,16 +1,16 @@
 #include <iostream>
-#include<math.h>
+#include <math.h>
 using namespace std;
 
 int main()
 {
-    int n = 58;
+
+    int n = 35;
     int fac = 1;
     for (int i = 1; i <= n; i++)
     {
         fac = fac * i;
+        cout << i << " factorial\t: "<< fac << endl;
     }
-
-    cout << fac;
     return 0;
 }

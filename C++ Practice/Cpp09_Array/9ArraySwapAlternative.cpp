@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// swap alternale array elements
+// swap alternate array elements
 
 int alterArray(int arr[], int size)
 {
@@ -17,6 +17,7 @@ int alterArray(int arr[], int size)
     }
     return 0;
 }
+
 int pArray(int arr[], int size)
 {
     for (int i = 0; i < size; i++)
@@ -24,7 +25,6 @@ int pArray(int arr[], int size)
         cout << arr[i] << " ";
     }
     cout << endl;
-
     return 0;
 }
 
