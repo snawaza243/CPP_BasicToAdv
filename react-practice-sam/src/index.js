@@ -12,5 +12,6 @@ root.render(
     <Home />
     <Blogs />
     <Contact />
+    <NoPage />
   </>
 )
