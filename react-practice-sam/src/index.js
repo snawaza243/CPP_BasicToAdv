@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Home from './ReactRouter/Home'
-import Blogs from './ReactRouter/Blogs'
-import Contact from './ReactRouter/Contact'
-import NoPage from './ReactRouter/NoPage'
-import { BrowserRouter,Route,Routes } from 'react-router-dom'
-import Layout from './ReactRouter/Layout'
+import Home from './Home'
+import Blogs from './Blogs'
+import Contact from './Contact'
+import NoPage from './NoPage'
+import { BrowserRouter,Outlet,Route,Routes } from 'react-router-dom'
+import Layout from './Layout'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
@@ -18,5 +18,6 @@ root.render(
         <Route path='*' element={<NoPage />} />
       </Route>
     </Routes>
+    <Outlet/>
   </BrowserRouter>
 )
