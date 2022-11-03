@@ -1,0 +1,234 @@
+lesson 1
+decoding artificial intelligence
+
+1.1 decoding artificial intelligence
+
+1.2 meaning, scope and stages of artificial intelligence
+
+artificial intelligence: according to the dictionary, artificial intelligence is the capability of a machine to imitate human behavior.
+
+ai is the intelligence exhibited by machines
+it is based on the premise that intelligence is not real or human
+mimics cognitive functions exhibited by humans
+
+scope of ai
+1.2 stages of AI
+
+2015 artificial narrow intelligence
+2020 artificial general intelligence
+2050 artificial super intelligence
+
+
+2015 artificial narrow intelligence
+ani 
+
+user driven big data systems for machine learning
+are limited to one or two functional area
+
+are no t self areas of self conscious 
+appear to be making decisions but it is the statistic / in action
+example
+smartphone apps
+chess and alpha-go
+image identification tools
+speech recognition tools self driving system
+google translate
+spm filters
+
+2020 artificial general intelligence agi
+advanced networks trained to build ad hoc systems and improve themselves using data.
+
+cover areas
+reasoning
+problem solving
+abstract thinking
+
+example
+multipurpose systems
+systems with human level intelligence reasoning thinking and decisions making
+systems that synthesize diverse information and decide actions
+
+
+2050 artificial super intelligence asi
+surpasses human intelligence
+machine consciousness
+systems characterizing cognitive self learning
+
+example
+super intelligence au agents
+systems that are master at every skill, subject, or discipline and are faster that the smartest humans
+
+1.4 application of artificial intelligence
+machine learning - deep learning, neural networks
+vision - image and pattern recognition
+hearing - voice and speech recognition
+natural language processing (NLP) - natural language understanding (NLU), natural language generation (NLG)
+robotics
+expert systems
+
+
+1.5
+image recognition
+product analytics
+a/b testing 
+speech recognition
+language translation
+sentiment analysis
+
+
+image recognition
+recognizes objects, places, people, and actions in an image.
+
+speech recognition
+allows human to use their voice to communication with software.
+
+language translate
+translates a word or sentence from one language to another
+ensures that the translated word is culturally and linguistically correct.
+
+product analytics
+enables companies to leverage data to reveal user engagement with products or services
+tracks activities, likes and dislike of user
+
+a/b testing
+compares two versions
+determines the version of a web page that delivers a better performance
+
+sentiment analysis
+analyzes a piece of text ot determine the writer's attitude
+can be categorized as positive, negative or neutral
+
+1.6 ai example
+cogito : improve customer support represntatives
+netflix : user predictive technology to offer mvie recommendantions
+
+
+
+1.7 effects of ai on society
+enhances throughput and efficiency
+
+datmo
+due company
+enhances lifestyle
+
+enhances throughput and efficiency
+self driving compares are a combination of sensors, cameras, radar and artificial intelligence technology.
+it is capable of sensing the environment and navigating without human intervention.
+
+frees up humans
+due company
+machines allow humans to do the most interpersonal and creative aspects of work.
+
+cctv
+designed to monitor specific areas and situations
+alerts relevant personnel to potential hazards or safety incidents
+
+adds jobs and strengthens the economy
+pwc - the unparalleled combination of human and machine will become the new normal in the workforce of the future.
+
+
+
+Headlines like "robots and ai will destroy jobs" are more of a fiction than fact.
+
+there will be a gradual, posistive evalutaiton ifn the job market
+people will work batter with the helop of ai
+
+enhance lifestyle
+tsunami - Naresh solving
+smart homes will reduce the energy usage and provide better security for hymans. marketing will be more targeted and health care will become more effective with smart devices.
+
+google's launchpad studio
+byteflies
+
+
+1.8 supervises learning for telemedicine
+artificial intelligence has the potential to extend knowledge and understanding to a broader population. image based ai diagnoses of medical conditions could allow for a more comprehensive deployment of telemedicine.
+
+
+google deepmind
+better diagnoses with less human effort
+diagnoses diabetic retinopathy like highly trained opthalmologist
+diagnoses, monitors, and treats diabetic retinopathy remotely via telemedicine.
+
+1.9 solves complex social problems
+
+litterati 
+a litter free world
+
+is a global database for litter
+is a crowdsourced litter clean up appear
+identifies litter type, distribution, and location
+finds more sustainable solutions
+one piece of litter at a time
+
+improves demand side management
+
+clrearesult - greg sarich
+from an energy standpoint, artificial intelligence can be used to analyze and research historical data to determine how to most efficently distribute energy loads from a grid perspective.
+
+machines become starter over time 
+computer s are not suspceptible to human errors
+
+
+energy efficiency
+demand side management
+demand response
+
+
+nest 
+alphabet nest uses ai to learn a home oener's habits resulrting in reduced energy consumption
+
+comfy
+comfy offers serives for redcing energy consummption in office building
+
+
+ai at home : soli
+embedded into wearables, phone, computers, cars, iot devices
+is a miniature radar that detects touchless gesture interacions
+incorporates the entire sencor and antenna array into a compact 8mm x 10mm package.
+mimics physical interactions with devices
+
+
+1.10 benefits multiple industries
+
+qualys - mark butler
+ai risks are real if we don't understand the quality of the incoming data and set ai rules which are making granular trade-off decsions art increaisng computing speeds.
+
+charcet/ facial recognition
+digital content analysis
+accuracy in idenfiying patterns
+
+biometric technology used to identify human faces
+used in secutiy systems 
+commercial identificatoin and marketing
+
+differentiates between images fo objects pets, sports, and food
+suggests relevant borders and stickers
+identifies uour locatoin and suggest location-based filtersuses machine learning and an image classification technique called convolutions neural networks (CNN)
+generates revenue from brands that sposor them based on suers locations
+
+
+cognitivie scale - ganesh padmanbhan
+ai intelligence is the biggest opportunity of our lifefime to extend and expand human creativity and ingenuity.
+
+
+separation/ retirement
+compliance and reporting
+risk management
+engagement and recognition
+performance management
+learning and development
+recruitment
+
+
+
+1.11 key takeaways
+
+ai definitions
+three stages
+application of ai
+ai contribuiton to hte society
+
+
+Which of the following is NOT an example of artificial narrow intelligence? ==Super-intelligent AI agents
+Which of the following uses machine-learning technology to become smarter and more capable of understanding natural language questions and requests? = siri
