@@ -1,0 +1,86 @@
+#head-greed {
+    background-color: rgb(255, 77, 0);
+    padding: 5px;
+    border-radius: 15px;
+    padding-right: 20px;
+}
+
+p {
+    font-weight: bold;
+}
+
+button {
+    font-size: 25px;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(255, 85, 0);
+    color: white;
+}
+
+.hero {
+    align-items: center;
+    /* border: 2px solid black; */
+    box-shadow: -5px -5px 2px rgb(0, 0, 0);
+    height: 450px;
+    padding: 15px;
+    width: 300px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-left: 1%;
+    position: relative;
+    /* Center vertically and horizontally */
+    position: absolute;
+    left: 40%;
+    margin: -25px 0 0 -25px;
+
+}
+
+
+.hero:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+
+    display: inline-block;
+    vertical-align: middle;
+    border: none;
+    box-shadow: 5px 5px 4px rgb(255, 255, 255);
+
+
+}
+
+#log {
+    background-color: bisque;
+    bottom: 250px;
+}
+
+#log-sign {
+    /* background-color: blueviolet; */
+    align-items: center;
+    margin-top: 220px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-left: 15px;
+
+}
+
+center {
+    margin-top: 225px;
+
+}
+
+body {
+    background-color: rgb(61, 61, 214);
+    background-image: url(https://img.freepik.com/premium-vector/hand-painted-background-violet-orange-colours_23-2148427578.jpg?w=2000);
+    color: white;
+}
+
+small {
+    font-weight: bolder;
+    text-align: right !important;
+}
