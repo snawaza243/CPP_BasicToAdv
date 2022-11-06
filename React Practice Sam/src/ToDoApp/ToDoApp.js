@@ -17,6 +17,8 @@ const ToDo = () => {
   const [isEditItem, setIsEditItem] = useState('')
   const [toggleButton, setToggleButton] = useState(false)
 
+  document.title = 'To Do App'
+
   // Convert text into sentence case
   function sentenceCase (str) {
     if (str === null || str === '') return false
@@ -29,7 +31,7 @@ const ToDo = () => {
   // item add function
   const addItem = () => {
     if (!inputData) {
-      alert('Enter items name then add.')
+      alert('Enter items then add.')
     } else if (inputData && toggleButton) {
       setItems(
         items.map(curElem => {
@@ -81,9 +83,9 @@ const ToDo = () => {
 
   // add on click enter
 
-  const handleKeypress = (event) => {
+  const handleKeypress = event => {
     //it triggers by pressing the enter key
-    if ((event).keyCode === 13) {
+    if (event.keyCode === 13) {
       addItem()
     }
   }
@@ -94,12 +96,13 @@ const ToDo = () => {
         <div className='child-div'>
           <div className='head-hero'>
             <h3>
-              To-do <br></br>Application
+              To Do <br></br>Application
             </h3>
             <i className='fa fa-list fa-4x'></i>
           </div>
           <div className='add-items'>
             <input
+              title='Add items'
               type='text'
               placeholder='✒️Add items now....'
               className='form-control'
@@ -109,11 +112,13 @@ const ToDo = () => {
             />
             {toggleButton ? (
               <i
+                title='Save the edit'
                 className='fa fa-edit add-btn add-on-click '
                 onClick={addItem}
               ></i>
             ) : (
               <i
+                title='Save the item'
                 className='fa fa-plus add-btn add-on-click plus-icon'
                 onClick={addItem}
               ></i>
@@ -127,10 +132,12 @@ const ToDo = () => {
                   <p>{sentenceCase(curElem.name)}</p>
                   <div className='todo-btn'>
                     <i
+                      title='Edit this item'
                       className='fa fa-edit add-btn'
                       onClick={() => editItem(curElem.id)}
                     ></i>
                     <i
+                      title='Delete this item'
                       className='fa fa-trash-alt add-btn'
                       onClick={() => deleteItem(curElem.id)}
                     ></i>
@@ -143,11 +150,12 @@ const ToDo = () => {
           {/* remove button */}
           <div className='show-item'>
             <button
-              className='btn effect04'
+              title='Clear All Items'
+              className='btn effect04 clear-btn'
               data-sm-link-text='Remove All'
               onClick={removeAll}
             >
-              <span>Clear List</span>
+              <span>X</span>
             </button>
           </div>
         </div>
