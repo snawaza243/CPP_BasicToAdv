@@ -1,0 +1,28 @@
+
+mkdir ReactProject
+cd ReactProject
+npm init react-app sam-counter-app
+cd sam-counter-app
+npm start
+ctrl+c -->y
+npm install gh-pages --save -dev
+
+package.jsom
+	"homepage": "http://snawaza243.github.io/sam-counter-app",
+
+Confirm 
+ "dependencies": {
+    "gh-pages": "^4.0.0",
+}
+
+Add in script block
+
+	"predeploy":"npm run build",
+	"deploy":"gh-pages -d build",
+
+
+git add .
+git commit -m "Deployed counter app sam-counter-app"
+
+npm run deploy
+git push -u origin master
