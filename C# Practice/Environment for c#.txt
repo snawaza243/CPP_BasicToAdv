@@ -1,0 +1,48 @@
+1. use visual studio
+	or 
+2. install latest .NET SDK & vs code 
+	in vs code
+install C# extension and code runner (microsoft) to run the code without command
+
+start with project
+
+create a project folder and open that
+open the 'cmd' in project directory
+
+run 'dotnet new console' that will create basic console app
+
+run 'code .' to open with vs code
+
+open program.cs file  (downlaod require noticing utilities)
+
+run metho 
+1 terminalmethon
+open new terminal with .cs file
+
+run 'dotnet run'
+
+2. download 'code runner' extention
+FIle>Preference>Settings
+
+serach 'run in terminal' and 'Code-runner:Run in Terminal' and check the box then just left click on open settings
+then write 'code' and select code runner.executer map scroll up and find csharp and remove script and type 'cd $dir && dotnet run $fileName' and save the changes and close all the windows
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
