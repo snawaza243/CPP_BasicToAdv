@@ -1,0 +1,7 @@
+npm install gh-pages --save -de
+
+npm WARN config dev Please use --include=dev instead.
+
+run `npm fund` for details
+
+Run `npm audit` for details.
