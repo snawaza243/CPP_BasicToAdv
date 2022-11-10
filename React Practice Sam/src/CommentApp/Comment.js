@@ -8,6 +8,7 @@ function Comment (props) {
   return (
     <div className='comment'>
       <div className='user-info'>
+        <center> Example of comment and Avatar</center>
         <Avatar avatarURL={img} name='mylogo' />
         <div className='comment-text'>Hello {props.text}</div>
         <div className='comment-date'>Current Date if (condition) {

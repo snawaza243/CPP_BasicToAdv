@@ -1,4 +1,5 @@
 import React from 'react'
+import './Welcome.css'
 class Welcomes extends React.Component {
   constructor (props) {
     super()
@@ -9,8 +10,8 @@ class Welcomes extends React.Component {
       <>
         <>
           <h1>{this.state.message} {this.props.name}</h1>
-          <h2>New Name: {this.props.newname}</h2>
-          <h2>Your city is : {this.props.city}</h2>
+          <h2>New Name : {this.props.newname}</h2>
+          <h2>Your City {this.props.city}</h2>
         </>
       </>
     )

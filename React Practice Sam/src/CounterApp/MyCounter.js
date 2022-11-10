@@ -14,25 +14,29 @@ const MyCounter = () => {
   //   setCounter(counter - 1)
   // }
   
-
-  const countMinus = () => {
-    counter > 0 ? setCounter(counter - 1) : setCounter(0)
-  }
+  // const countMinus = () => {
+  //   counter > 0 ? setCounter(counter - 1) : setCounter(0)
+  // }
 
   return (
     <>
       <div id='container'>
         <div id='container-box'>
           <div id='app-title'>
-            <h1>StaleLess/ Hooks: Counter App</h1>
+            <h1>Counter App</h1>
+            <h3>Stateless : Hooks-useState</h3>
           </div>
           <div id='result'>
             <h1>Lest's Counting: {counter}</h1>
           </div>
           <div id='bottom'>
-            <button onClick={countPlus}>Increase</button>
-            <button onClick={countMinus}>Decrease</button><br></br>
-            <button onClick={()=>{setCounter(0)}}>Reset</button>
+            <button 
+            onClick={()=>setCounter(counter +1)}
+            >Increase</button>
+            <button onClick={()=>setCounter(counter-1)}>Decrease</button><br></br>
+            <button onClick={()=>
+          counter > 0 ? setCounter(counter - 1) : setCounter(0)  
+          }>Reset</button>
           </div>
         </div>
       </div>

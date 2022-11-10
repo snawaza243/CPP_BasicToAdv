@@ -25,7 +25,8 @@ const MyCounterEffect = () => {
       <div id='container'>
         <div id='container-box'>
           <div id='app-title'>
-            <h1>Hooks (useEffect): Counter App</h1>
+          <h1>Counter App</h1>
+            <h3>Stateless : Hooks-useEffect</h3>
           </div>
           <div id='result'>
             <h1>Lest's Counting: {counter}</h1>

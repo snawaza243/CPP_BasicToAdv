@@ -1,23 +1,22 @@
 import React from 'react'
 import './MyCounter.css'
+
+var title = document.title='CounterApp | Stateful'
+
 class MyCounter extends React.Component {
   constructor () {
     super()
-    this.state = { count: 0, valueReset: 0}
-
+    this.state = { count: 0}
   }
-  
   render () {
-
     return (
       <>
         <div id='container'>
           <div id='container-box'>
             <div id='app-title'>
-              <h1>ClassFull: Counter App{this.props.title}</h1>
-              <div />
+            <h1>{title}</h1>
               <div id='result'>
-                <h1>Let's Counting : {this.state.count}</h1>
+                <h1>You clicked {this.state.count} time (s)</h1>
               </div>
               <div id='bottom'></div>
               <button
@@ -37,12 +36,6 @@ class MyCounter extends React.Component {
                 Decrement
               </button>
               <br></br>
-
-              <button
-                // onClick={this.state.num}
-              >
-                Reset
-              </button>
               <div />
             </div>
           </div>
@@ -51,7 +44,7 @@ class MyCounter extends React.Component {
     )
   }
 }
-export default MyCounter
+export default MyCounter;
 
 // index.js
 // import React from 'react'
