@@ -17,7 +17,7 @@ const ToDo = () => {
   const [isEditItem, setIsEditItem] = useState('')
   const [toggleButton, setToggleButton] = useState(false)
 
-  document.title = 'To Do App'
+  document.title = 'ToDo App'
 
   // Convert text into sentence case
   function sentenceCase (str) {
@@ -44,6 +44,7 @@ const ToDo = () => {
       setInputData('')
       setIsEditItem(null)
       setToggleButton(false)
+      
     } else {
       const NewInputData = {
         id: new Date().getTime().toString(),
@@ -164,4 +165,4 @@ const ToDo = () => {
   )
 }
 
-export default ToDo
+export default ToDo;

@@ -10,15 +10,15 @@ function BookShop () {
       <SaNav />
       <SaSlideshow />
       <SaMain />
-      <ShowBookAPI />
+      <div className='bockcenter'>
+        <ShowBookAPI />
+      </div>
       <SaFooter />
     </>
   )
 }
 
-
-export default BookShop;
-
+export default BookShop
 
 // index.js
 // import React from 'react'
@@ -30,4 +30,3 @@ export default BookShop;
 //   <BookShop />
 //   </>
 // )
-

@@ -1,6 +1,6 @@
 import React from 'react'
 
-class LogginControls extends React.Component
+class LoggingControls extends React.Component
 {
    
     handlingClick(){
@@ -25,4 +25,4 @@ class LogginControls extends React.Component
 //     }
 
 // }
-export default LogginControls;
+export default LoggingControls;

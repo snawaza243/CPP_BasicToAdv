@@ -16,8 +16,9 @@ function SaCart (props) {
   )
 }
 
-export default SaCart;
+export default SaCart
 
-// use 
-{/* <SaCart src={b2} CartDis="This is the second by comp"/> */}
-
+// use
+{
+  /* <SaCart src={b2} CartDis="This is the second by comp"/> */
+}

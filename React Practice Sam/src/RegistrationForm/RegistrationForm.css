@@ -1,0 +1,66 @@
+body{
+    margin: 10px;
+ 
+    background-image: url(./gdm.png);
+}
+
+#container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    height: 100%;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 20%;
+}
+
+#container-box {
+    background-color: #7fffd4;
+    padding: 20px;
+    display:block ;
+    border-radius: 20px;
+    color: #000
+}
+
+form{
+    font-size: 20px;
+    text-align: left;
+    display: block;
+}
+
+input{
+    background-color: aqua;
+    border: none;
+    border:2px solid transparent;
+
+}
+input:hover{
+    border:2px solid #000;
+}
+button{
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 120px;
+    background-color: aqua;
+    border-radius: 15px;
+    padding: 10px;
+
+    border:2px solid transparent;
+
+}
+button:hover{
+    background-color: black;
+    color:white;
+    border:2px solid #000;
+}
+
+button:active{
+    background-color: white;
+    color: black;
+}

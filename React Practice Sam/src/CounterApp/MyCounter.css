@@ -1,12 +1,55 @@
-body{background-color:#000;color:#fff}
+body {
+    background-color: #000;
+    color: #fff
+}
 
-#container{justify-content:center;align-items:center;text-align:center;font-size:35px;height:100%;width:100%;display:flex;flex-direction:column;position:absolute}
-#container-box{background-color:#7fffd4;padding:20px;display:block;border:2px solid #000;border-radius:20px;color:#000}
+#container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute
+}
 
-#result{font-size:55px;padding:10px;margin-bottom:10px;box-sizing:border-box;background-color:#8804df;border:2px dotted #000;color:#fff}
+#container-box {
+    background-color: #7fffd4;
+    padding: 20px;
+    display: block;
+    border: 2px solid #000;
+    border-radius: 20px;
+    color: #000
+}
 
-button{height:auto;padding:10px;margin:10px;cursor:pointer;font-size:30px;background-color:aqua;border-radius:10px;justify-content:space-around}
+#result {
+    font-size: 55px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: #8804df;
+    border: 2px dotted #000;
+    color: #fff
+}
 
-button:hover{background-color:blue;color:#fff}
+button {
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: aqua;
+    border-radius: 10px;
+    justify-content: space-around
+}
 
-button:active{background-color:red}
+button:hover {
+    background-color: blue;
+    color: #fff
+}
+
+button:active {
+    background-color: red
+}
