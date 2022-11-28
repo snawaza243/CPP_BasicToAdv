@@ -1,4 +1,5 @@
 import React from 'react'
+import SideBar from '../sidebar/SideBar'
 import './post.css'
 function Post() {
   return (

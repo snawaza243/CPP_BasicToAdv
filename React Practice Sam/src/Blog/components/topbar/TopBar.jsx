@@ -1,6 +1,8 @@
 import React from 'react'
+import { Link, Outlet } from 'react-router-dom'
 import './topbar.css'
-function TopBar () {
+function TopBar() {
+  const user = true;
   return (
     <>
       <div className='top'>
@@ -12,11 +14,11 @@ function TopBar () {
         </div>
         <div className='toCenter'>
           <ul className='topList'>
-            <li className='topListItem'>Home</li>
-            <li className='topListItem'>About</li>
-            <li className='topListItem'>Content</li>
-            <li className='topListItem'>Write</li>
-            <li className='topListItem'>Logout</li>
+            <li className='topListItem'><Link to="./" >Home</Link></li>
+            <li className='topListItem'><Link to="./about" >About</Link></li>
+            <li className='topListItem'><Link to="./contact" >Contact</Link></li>
+            <li className='topListItem'><Link to="./write" >Write</Link></li>
+            <li className='topListItem'><Link to="./login " >Login</Link></li>
           </ul>
         </div>
         <div className='topRight'>
@@ -26,6 +28,7 @@ function TopBar () {
           <i className='topSearchIcon fas fa-search'></i>
         </div>
       </div>
+      <Outlet />
     </>
   )
 }

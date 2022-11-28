@@ -10,9 +10,10 @@ function BookShop () {
       <SaNav />
       <SaSlideshow />
       <SaMain />
-      <div className='bockcenter'>
-        <ShowBookAPI />
-      </div>
+      <center>
+        <ShowBookAPI className='show-center'/>
+      </center>
+      
       <SaFooter />
     </>
   )

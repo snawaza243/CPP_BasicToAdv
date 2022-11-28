@@ -9,7 +9,9 @@ function SaApp () {
     <>
       <div>
         <SaNav />
+        <center>
         <SaMain />
+        </center>
         <SaFooter />
       </div>
     </>

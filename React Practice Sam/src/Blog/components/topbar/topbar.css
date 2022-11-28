@@ -12,6 +12,7 @@
     align-items: center;
     font-family: 'Josefin Sans', sans-serif;
     z-index: 999;
+
 }
 
 .topLeft,
@@ -37,7 +38,9 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    object-fit: contain;
+    /* object-fit: contain; */
+    object-fit: fill;
+
     color: blue;
 }
 
@@ -55,8 +58,18 @@
     font-size: 18px;
     font-weight: 300;
     cursor: pointer;
+    text-decoration: none;
+    color: rebeccapurple;
 }
-
+.topListItem>a{
+  font-weight: 400;
+  text-decoration: none;
+}
+.topListItem>a:hover{
+    transition: 0.4s;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+    text-decoration: underline;
+  }
 .topSearchIcon{
     font-size: 18px;
     color: #666;

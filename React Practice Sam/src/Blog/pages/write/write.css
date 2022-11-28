@@ -8,18 +8,19 @@
     /* background-color: aqua; */
 }
 
-.writeImg{
-    margin-left: 15px;
+.writeImg {
+    margin-left: 150px;
     width: 70vw;
     height: 250px;
     border-radius: 10px;
-object-fit: cover;
+    object-fit: cover;
 
 
 
 }
+
 .writeFormGroup {
-    margin-left: 15px;
+    margin-left: 150px;
     display: flex;
     align-items: center;
 
@@ -45,13 +46,14 @@ object-fit: cover;
     width: 70vw;
 }
 
-.writeIcon:focus {
+
+.writeInput:focus {
     outline: none;
 }
 
 .writeText {
     font-size: 20px;
-    height: 100yn;
+    height: 100vh;
 }
 
 .writeSubmit {
@@ -60,7 +62,7 @@ object-fit: cover;
     right: 50px;
     color: white;
     background-color: teal;
-    border: none;
+    padding: 10px;
     border-radius: 10px;
     cursor: pointer;
     font-size: 16px;

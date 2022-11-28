@@ -4,7 +4,7 @@ import React from 'react'
 import Avatar from './Avatar'
 import img from './user.png'
 
-function Comment (props) {
+function Comment(props) {
   const event = new Date()
   const options = {
     weekday: 'long',

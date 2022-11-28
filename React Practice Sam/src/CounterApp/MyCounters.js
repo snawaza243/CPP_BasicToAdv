@@ -1,8 +1,8 @@
 import React from 'react'
 import './MyCounter.css'
 
-var title = document.title='CounterApp | Stateful'
-
+var title = document.title='Stateful Counter App'
+document.title=title;
 class MyCounter extends React.Component {
   constructor () {
     super()
@@ -16,10 +16,10 @@ class MyCounter extends React.Component {
             <div id='app-title'>
             <h1>{title}</h1>
               <div id='result'>
-                <h1>You clicked {this.state.count} time (s)</h1>
+                <h1>Lest's Start Counting : {this.state.count}</h1>
               </div>
               <div id='bottom'></div>
-              <button
+              <button title='Increment'
                 onClick={event => {
                   const countUpdate = this.state.count + 1
                   this.setState({ count: countUpdate })
@@ -27,15 +27,34 @@ class MyCounter extends React.Component {
               >
                 Increment
               </button>
-              <button
+              <button title='Decrement till zero'
                 onClick={event => {
                   const countUpdate = this.state.count - 1
                   this.setState({ count: countUpdate })
+                  // countUpdate>0 ? this.state.count - 1 : (this.state.count)-(this.state.count)
                 }}
               >
+
                 Decrement
               </button>
+              <button title='Decrement in Negative Value' className='button2' onClick={event => {
+                  const countUpdate = this.state.count - 1
+                  this.setState({ count: countUpdate })
+                  // countUpdate>0 ? this.state.count - 1 : (this.state.count)-(this.state.count)
+
+
+                }}>
+              -1
+            </button>
               <br></br>
+              <button title='Reset Count'
+                onClick={event => {
+                  const countUpdate = (this.state.count)-(this.state.count)
+                  this.setState({ count: countUpdate })
+                }}
+              >
+                Reset
+              </button>
               <div />
             </div>
           </div>

@@ -11,6 +11,11 @@ const getLocalData = () => {
   }
 }
 
+
+
+
+
+
 const ToDo = () => {
   const [inputData, setInputData] = useState('')
   const [items, setItems] = useState(getLocalData())
@@ -91,6 +96,19 @@ const ToDo = () => {
     }
   }
 
+  // enter press even
+  React.useEffect(() => {
+    window.addEventListener('keypress', (event) => 
+    {
+      if (event.key === "Enter") {
+        event.preventDefault();
+        document.getElementsByClassName("addBtnId").click();
+      }
+    }
+  )
+      
+    });
+
   return (
     <>
       <div className='main-div'>
@@ -99,14 +117,14 @@ const ToDo = () => {
             <h3>
               To Do <br></br>Application
             </h3>
-            <i className='fa fa-list fa-4x'></i>
+            <i className='fa fa-list fa-4x'> </i>
           </div>
           <div className='add-items'>
             <input
               title='Add items'
               type='text'
               placeholder='✒️Add items now....'
-              className='form-control'
+              className='form-control inputDataField'
               value={inputData}
               onChange={event => setInputData(event.target.value)}
               onKeyPress={handleKeypress}
@@ -114,13 +132,13 @@ const ToDo = () => {
             {toggleButton ? (
               <i
                 title='Save the edit'
-                className='fa fa-edit add-btn add-on-click '
+                className='fa fa-edit add-btn add-on-click addBtnId'
                 onClick={addItem}
               ></i>
             ) : (
-              <i
+              <i 
                 title='Save the item'
-                className='fa fa-plus add-btn add-on-click plus-icon'
+                className='fa fa-plus add-btn add-on-click plus-icon addBtnId'
                 onClick={addItem}
               ></i>
             )}
@@ -156,7 +174,7 @@ const ToDo = () => {
               data-sm-link-text='Remove All'
               onClick={removeAll}
             >
-              <span>X</span>
+              <span><i class="fa fa-remove"></i></span>
             </button>
           </div>
         </div>

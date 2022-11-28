@@ -50,6 +50,7 @@ function SaNav () {
                   Movies
                 </a>
                 <ul class='dropdown-menu'>
+                  <li> <a> {' '}</a></li>
                   <li>
                     <a class='dropdown-item' href='#'>
                       Sci-Fi
@@ -87,8 +88,9 @@ function SaNav () {
                 </ul>
               </li>
               <li class='nav-item'>
-                <a class='nav-link disabled'>Site</a>
+                {/* <a class='nav-link disabled'>Site</a> */}
               </li>
+              <br></br>
             </ul>
             <form class='d-flex' role='search'>
               <input

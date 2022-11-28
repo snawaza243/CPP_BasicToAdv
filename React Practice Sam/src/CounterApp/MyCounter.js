@@ -3,17 +3,19 @@ import './MyCounter.css'
 // stateless
 import React, { useState } from 'react'
 
+var title = document.title='Functional Counter App'
+document.title=title;
 const MyCounter = () => {
-  const initialValue =0
+  const initialValue = 0
   const [counter, setCounter] = useState(initialValue)
   const countPlus = () => {
-    setCounter(counter + 1)  
+    setCounter(counter + 1)
   }
 
   // const countMinus = () => {
   //   setCounter(counter - 1)
   // }
-  
+
   // const countMinus = () => {
   //   counter > 0 ? setCounter(counter - 1) : setCounter(0)
   // }
@@ -23,20 +25,25 @@ const MyCounter = () => {
       <div id='container'>
         <div id='container-box'>
           <div id='app-title'>
-            <h1>Counter App</h1>
-            <h3>Stateless : Hooks-useState</h3>
+            <h1>CounterApp | Functional</h1>
           </div>
           <div id='result'>
-            <h1>Lest's Counting: {counter}</h1>
+            <h1>Lest's Start Counting : {counter}</h1>
           </div>
           <div id='bottom'>
-            <button 
-            onClick={()=>setCounter(counter +1)}
-            >Increase</button>
-            <button onClick={()=>setCounter(counter-1)}>Decrease</button><br></br>
-            <button onClick={()=>
-          counter > 0 ? setCounter(counter - 1) : setCounter(0)  
-          }>Reset</button>
+            <button title='Increment' onClick={() => setCounter(counter + 1)}>Increase</button>
+            <button title='Decrement till zero'
+              onClick={() =>
+                counter > 0 ? setCounter(counter - 1) : setCounter(0)
+              }
+            >
+              Decrease
+            </button>
+            <button title='Decrement in Negative Value' className='button2' onClick={() => setCounter(counter - 1)}>
+              -1
+            </button>
+            <br></br>
+            <button onClick={() => setCounter(0)}>Reset</button>
           </div>
         </div>
       </div>
@@ -44,4 +51,4 @@ const MyCounter = () => {
   )
 }
 
-export default MyCounter;
+export default MyCounter

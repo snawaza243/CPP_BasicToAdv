@@ -143,7 +143,7 @@
 
 .card-b:hover {
     background-image: linear-gradient(to bottom right, rgb(244, 0, 134), rgb(172, 33, 236));
-transition:0.8s;
+    transition: 0.8s;
 
 }
 
@@ -161,14 +161,14 @@ transition:0.8s;
     overflow: hidden;
     border: 10px solid black;
 }*/
-.card-text{
+.card-text {
     /* height: 650px;
     box-sizing:content-box;
     overflow:hidden;
     margin-left: -10px;
     width: 218px; */
 
-    font-family: 'Varela Round' serif;
+    font-family: 'Varela Round'serif;
     font-size: 14px;
     color: #444;
     line-height: 24px;
@@ -178,7 +178,7 @@ transition:0.8s;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
 
-}  
+}
 
 
 .carouselExampleControls {
@@ -211,18 +211,25 @@ transition:0.8s;
     transition: width 2s;
 }
 
-.footerSocial i{
+.footerSocial i {
     cursor: pointer;
 
 }
 
-.footerSocial i:hover{
+.footerSocial i:hover {
     color: red;
-    
+
 }
 
-.bockcenter{
+.bockcenter {
     display: absolute;
     justify-content: center;
     align-items: center;
+}
+
+
+.dropdown-menu {
+    background-color: rgb(3, 230, 255);
+    position: fixed;
+    z-index: 9999;
 }
