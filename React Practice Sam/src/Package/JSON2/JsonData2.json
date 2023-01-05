@@ -1,0 +1,51 @@
+[ {
+    "name": "Pooja ",
+    "registerNumber": 11202677,
+    "department": "CSE"
+    },
+    {
+    "name": "smriti",
+    "registerNumber": 11202665,
+    "department": "CSE"
+    },
+    {
+    "name": "Sunidhi",
+    "registerNumber": 11202623,
+    "department": "CSE"
+    },
+    {
+    "name": "Iram",
+    "registerNumber": 11208923,
+    "department": "MBBS"
+    },
+    {
+    "name": "Prerna",
+    "registerNumber": 1121345,
+    "department": "MBA"
+    },
+    {
+    "name": "Priya",
+    "registerNumber": 11262547,
+    "department": "Pharmacy"
+    },
+    {
+    "name": "Priti",
+    "registerNumber": 11222389,
+    "department": "HM"
+    },
+    {
+        "name": "Arisha",
+        "registerNumber": 1124567,
+        "department": "CSE"
+    },
+    {
+    "name": "Jyoti",
+    "registerNumber": 11026234,
+    "department": "CSE"
+    },
+    {
+    "name": "Neha",
+    "registerNumber": 11023143,
+    "department": "BBA"
+    } 
+]

@@ -1,0 +1,214 @@
+
+.navbar {
+    padding: 0;
+    margin: 0;
+    position: static;
+    background-color: #000;
+    z-index: 999;
+}
+
+.dropdown-toggle {
+    z-index: 9999;
+    position: absolute;
+}
+
+
+.nDiv {
+    top: 20px;
+    padding: 25px;
+
+}
+
+.container-fluid {
+    background-color: rgb(73, 240, 255);
+    padding: 15px;
+    color: #fff;
+    overflow: hidden;
+    position: sticky;
+    overflow: hidden;
+    z-index: 999;
+
+
+}
+
+.navbar-nav {
+    font-weight: bold;
+    z-index: 999;
+}
+
+.navbar-brand {
+    border: 2px solid rgb(0, 0, 0);
+
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 0 10px;
+    background-color: rgb(145, 34, 214);
+    color: rgb(255, 255, 255);
+
+}
+
+.navbar-brand:hover {
+    background-color: rgb(174, 0, 255);
+    color: white;
+    box-shadow: 4px 4px 5px black;
+    border: 2px solid rgb(255, 255, 255);
+
+}
+
+.btn {
+    border-color: black;
+    color: black;
+}
+
+.btn:hover {
+    background-color: rgb(174, 0, 255);
+    border-color: black;
+
+}
+
+.fDiv {
+    /* height: 20%; */
+    background-color: rgb(22, 41, 61);
+    background-color: #9122d6;
+    padding: 15px;
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    padding: 15px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+
+}
+
+.card-img-top {
+    height: 350px;
+    /* width: 245px; */
+    align-items: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px 15px 0 0;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.card-img-top:hover {
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.card {
+    width: 250px;
+    height: 530px;
+    position: relative;
+    align-items: center;
+    margin: 5px;
+    flex: auto;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-sizing: content-box;
+    overflow: hidden;
+
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 3px #9122d6;
+}
+
+.card-body {
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+
+}
+
+.card-b {
+    margin: 10px;
+    background-color: rgb(111, 10, 236);
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+.card-b:hover {
+    background-image: linear-gradient(to bottom right, rgb(244, 0, 134), rgb(172, 33, 236));
+    transition: 0.8s;
+
+}
+
+.card-text {
+    font-family: 'Varela Round'serif;
+    font-size: 14px;
+    color: #444;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.carouselExampleControls {
+    height: 100px;
+}
+
+
+/* auto image slider */
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+    transform: translateX(33.33%);
+    transition: width 2s;
+}
+
+.carousel-inner .carousel-item-left.active,
+.carousel-inner .carousel-item-prev {
+    transform: translateX(-33.33%);
+    transition: width 2s;
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+    transform: translateX(0);
+    transition: width 2s;
+}
+
+.footerSocial i {
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footerSocial i:hover {
+    color: aqua;
+
+}
+
+.bockcenter {
+    display: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-menu {
+    background-color: rgb(3, 230, 255);
+    position: fixed;
+    z-index: 9999;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.carousel {
+    height: min-content;
+    margin-top: 50px;
+    z-index: -5;
+}
+
+.card {
+    z-index: -2;
+}

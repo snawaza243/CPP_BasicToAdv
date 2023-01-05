@@ -1,0 +1,134 @@
+* body {
+    /* background-color: #000; */
+    color: #fff;
+    height: 200px;
+    background-image: url('./formbg2.jpg');
+    background-repeat: no-repeat;
+}
+
+#container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+}
+
+@media only screen and (min-width: 600px) {
+    #container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 150px;
+    }
+
+}
+
+#container-box {
+    margin-top: -300px;
+    background-color: transparent;
+    padding: 20px;
+    display: block;
+    border: 2px solid #000;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    width: 450px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.1px);
+    -webkit-backdrop-filter: blur(0.1px);
+    border: 1px solid rgba(255, 255, 255, 0.87);
+
+}
+
+#container-box:hover {
+    box-shadow: 0px 0px 30px #7fffd4;
+    transition: 0.2s;
+
+}
+
+.register {
+    text-align: center;
+    padding: 10px;
+    background-color: #8804df;
+    border-radius: 5px;
+
+}
+
+div {
+    text-align: left;
+}
+
+input {
+    margin: 10px;
+    border-radius: 20px;
+    background-color: blue;
+}
+input[type=phone]{text-decoration:e;}
+input[type=text],
+input[type=email],
+input[type=phone],
+input[type=password],
+input[type=date],
+input[type=username],
+select {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+input[type=text]:hover,
+input[type=email]:hover,
+input[type=phone]:hover,
+input[type=password]:hover,
+input[type=date]:hover,
+input[type=username]:hover,
+
+select {
+    offset: unset;
+    box-shadow: 0 0 10px rgb(69, 77, 239);
+}
+
+.button {
+    cursor: pointer;
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+
+    justify-content: center;
+    display: flex;
+    transition: 0.3s;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    offset: unset;
+    border-radius: 50px;
+    margin-left: 35%;
+    margin-top: 15px;
+
+}
+
+.button:hover {
+    background-color: rgb(44, 225, 162);
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+    border: 2px solid rgb(44, 225, 162);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+
+
+}
+
+.genderBox {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}

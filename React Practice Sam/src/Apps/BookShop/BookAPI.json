@@ -1,0 +1,82 @@
+[
+    {
+        "img": "../img/b (1).webp",
+        "book": "Vivekanand Autobiography",
+        "author": "Vivekanand",
+        "year": "2020",
+        "des": "Life of Vivekananda and the Universal Gospel"
+    },
+
+    {
+        "img": "../img/b (2).webp",
+        "book": "The Secret",
+        "author": "Vivekanand",
+        "year": "2020",
+        "des": "The Secret written by Rhonda Byrne."
+    },
+    {
+        "img": "../img/b (3).webp",
+        "book": "Spirit of India",
+        "author": "APJ Abdul Kalam",
+        "year": "2020",
+        "des": "Spirit of India written by APJ Abdul Kalam "
+    },
+    {
+        "img": "../img/b (4).webp",
+        "book": "Telepsychics",
+        "author": "Dr. Joseph Murphy",
+        "year": "2020",
+        "des": "Telepsychics written by Dr. Joseph Murphy."
+    },
+    {
+        "img": "../img/b (5).webp",
+        "book": "The Bhagwat Gita",
+        "author": "RR Varma",
+        "year": "2020",
+        "des": "The Bahagwat Git Written by RR Varma."
+    },
+    {
+        "img": "../img/b (6).webp",
+        "book": "The Magic",
+        "author": "Rhonda Byrne",
+        "year": "2020",
+        "des": "The Magic written by RHonda Byrne"
+    }
+    
+    ,
+    {
+        "img": "../img/b (7).webp",
+        "book": "The Power of your Subconscious Mind",
+        "author": "Dr. Joseph Murphy",
+        "year": "2020",
+        "des": "The Power of your Subconscious Mind written by Dr. Joseph Murphy"
+    },
+    
+    {
+        "img": "../img/b (8).webp",
+        "book": "Death an Inside Story",
+        "author": "Sadhguru",
+        "year": "2020",
+        "des": "Death an Inside Story written by Sadhguru."
+    },
+    {
+        "img": "../img/b (9).webp",
+        "book": "My Experiments with Truth",
+        "author": "MH. Gnandhi",
+        "year": "2020",
+        "des": "My Experiments with Truth is an Autobiography by Mahatma Gandhi"
+    },
+    {
+        "img": "../img/b (10).webp",
+        "book": "Paramhansa Yogananda",
+        "author": "Yogi",
+        "year": "2020",
+        "des": "Paramhansa Yoganda is an Autobiography of Yogi Aditya Nath."
+    }
+    
+
+
+
+]
+
+    

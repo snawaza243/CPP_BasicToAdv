@@ -1,14 +1,9 @@
 import ReactDOM from 'react-dom/client'
-import BookShop from './Package/BookShop/BookShop'
-
+import QnAF from './Package/RouterPage/RouterApp'
 const root = ReactDOM.createRoot(document.getElementById('root'))
+
 root.render(
   <>
-    {/* <App /> */}
-    {/* <Counters/> */}
-
-    {/* <ToDo /> */}
-
-    <BookShop/>
+    <QnAF/>
   </>
 )

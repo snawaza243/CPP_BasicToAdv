@@ -1,0 +1,100 @@
+[{
+        "FoodId": "1",
+        "Img": "./food_img/1.jpeg",
+        "Name": "Fried Rice",
+        "Comment": "Very tasty ",
+        "Description": "Fried rice is a dish of cooked rice that has been stir-fried in a wok .."
+    },
+    {
+        "FoodId": "2",
+        "Img": "../food_img/1.webp",
+        "Name": "Noodles",
+        "Comment": "Good",
+        "Description": "Noodles are a type of food made from unleavened dough which is either rolled flat and cut, stretched, or extruded, into long strips or strings."
+    },
+    {
+        "FoodId": "3",
+        "Img": "../food_img/2.jpg",
+        "Name": "Burger",
+        "Comment": "Really good!",
+        "Description": "A burger is a flat round mass of minced meat or vegetables, which is fried and often eaten in a bread roll"
+    },
+    {
+        "FoodId": "4",
+        "Img": "../food_img/4.webp",
+        "Name": "Momo",
+        "Comment": "Delicious !",
+        "Description": "Momo are bite-size dumplings made with a spoonful of stuffing wrapped in dough. Momo are usually steamed, though they are sometimes fried or steam-fried."
+    },
+    {
+        "FoodId": "5",
+        "Img": "../food_img/5.webp",
+        "Name": "Pizza",
+        "Comment": "This is Yummy!",
+        "Description": "Pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese"
+    },
+    {
+        "FoodId": "6",
+        "Img": "../food_img/6.jpeg",
+        "Name": "Fried Rice",
+        "Comment": "Very tasty ",
+        "Description": "Fried rice is a dish of cooked rice that has been stir-fried in a wok .."
+    },
+    {
+        "FoodId": "7",
+        "Img": "../food_img/7.webp",
+        "Name": "Noodles",
+        "Comment": "Good",
+        "Description": "Noodles are a type of food made from unleavened dough which is either rolled flat and cut, stretched, or extruded, into long strips or strings."
+    },
+    {
+        "FoodId": "8",
+        "Img": "../food_img/8.jpg",
+        "Name": "Burger",
+        "Comment": "Really good!",
+        "Description": "A burger is a flat round mass of minced meat or vegetables, which is fried and often eaten in a bread roll"
+    },
+    {
+        "FoodId": "9",
+        "Img": "../food_img/9.webp",
+        "Name": "Momo",
+        "Comment": "Delicious !",
+        "Description": "Momo are bite-size dumplings made with a spoonful of stuffing wrapped in dough. Momo are usually steamed, though they are sometimes fried or steam-fried."
+    },
+    {
+        "FoodId": "10",
+        "Img": "../food_img/10.webp",
+        "Name": "Pizza",
+        "Comment": "This is Yummy!",
+        "Description": "Pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese"
+    },
+    {
+        "FoodId": "11",
+        "Img": "../food_img/11.jpeg",
+        "Name": "Fried Rice",
+        "Comment": "Very tasty ",
+        "Description": "Fried rice is a dish of cooked rice that has been stir-fried in a wok .."
+    },
+    {
+        "FoodId": "12",
+        "Img": "../food_img/12.webp",
+        "Name": "Noodles",
+        "Comment": "Good",
+        "Description": "Noodles are a type of food made from unleavened dough which is either rolled flat and cut, stretched, or extruded, into long strips or strings."
+    },
+    {
+        "FoodId": "13",
+        "Img": "../food_img/13.jpg",
+        "Name": "Burger",
+        "Comment": "Really good!",
+        "Description": "A burger is a flat round mass of minced meat or vegetables, which is fried and often eaten in a bread roll"
+    },
+    {
+        "FoodId": "14",
+        "Img": "../food_img/14.webp",
+        "Name": "Momo",
+        "Comment": "Delicious !",
+        "Description": "Momo are bite-size dumplings made with a spoonful of stuffing wrapped in dough. Momo are usually steamed, though they are sometimes fried or steam-fried."
+    }
+
+]
